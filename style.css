@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+/* Main container */
+.container {
+    text-align: center;
+    max-width: 400px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+/* Title and description */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+/* Button styles */
+.button-container {
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+.truth {
+    background-color: #4CAF50;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+}
+
+.truth:hover {
+    background-color: #388E3C;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(56, 142, 60, 0.4);
+}
+
+.dare {
+    background-color: #E91E63;
+    box-shadow: 0 4px 15px rgba(233, 30, 99, 0.3);
+}
+
+.dare:hover {
+    background-color: #C2185B;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(194, 24, 91, 0.4);
+}
+
+/* Display area styles */
+.display-area {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#questionText {
+    font-size: 1.4em;
+    line-height: 1.6;
+}
